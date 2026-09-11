@@ -11,6 +11,7 @@ while stock!= "quit":
             reject = reject + 1
             continue
         inventory = inventory + stock
+        print("Stock added")
         if inventory >= 500:
             print("Inventory is already 500 or more")
             break
@@ -20,10 +21,3 @@ while stock!= "quit":
 
 print("Total Units Processed: ", inventory)
 print("Number of Failed Entries: ", reject )
-
-
-        
-    
-
-
-        
