@@ -13,7 +13,12 @@ def get_valid_input(stock):
 
 def process_delivery(current_total,new_value):
     return current_total + new_value
-    
+
+# 10% of the stock quantity
+def calculate_tax(amount):
+    tax = 0.10 * amount
+    return tax
+
 
 inventory = 0
 reject = 0
